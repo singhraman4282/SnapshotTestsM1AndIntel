@@ -20,7 +20,7 @@ class SnapshotTestsM1AndIntelvTests: QuickSpec {
         someLabel.text = "Testing"
         someLabel.embedInWindow()
         someLabel.backgroundColor = .red
-        📷(snapshottable: someLabel)
+        // 📷(snapshottable: someLabel)
         expect(someLabel).to(haveValidSnapshot())
       }
       
@@ -30,7 +30,7 @@ class SnapshotTestsM1AndIntelvTests: QuickSpec {
         someLabel.numberOfLines = 0
         someLabel.embedInWindow()
         someLabel.backgroundColor = .red
-        📷(snapshottable: someLabel)
+        // 📷(snapshottable: someLabel)
         expect(someLabel).to(haveValidSnapshot())
       }
       
